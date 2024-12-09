@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DF-Shop :: BMW X100</title>
+
+    <!-- CSS Bootsrap -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+
+    <!-- CSS Internal -->
+    <style>
+      .bg-default {
+        background-color: #17b3b5;
+      }
+      .text-default {
+        color: #17b3b5;
+      }
+      .text-justify {
+        text-align: justify;
+      }
+      section {
+        padding-top: 5%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-default fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">DF-Shop</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../biodata/index.html">Biodata</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../about/index.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../user/index.html">Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Content -->
+    <section class="container mt-5">
+      <div class="row d-flex justify-content-center">
+        <div class="col-8">
+          <img src="../img/img-05.jpg" class="img-fluid rounded-3" alt="..." />
+          <figcaption>Update: 2024-12-07</figcaption>
+        </div>
+      </div>
+
+      <div class="row mt-5 d-flex justify-content-center">
+        <div class="col-10">
+          <h3>BMW X100</h3>
+          <p class="text-justify">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis doloribus, delectus laborum quasi nisi asperiores? Vero mollitia sapiente quibusdam dicta sit laborum et aliquam. Aut vel voluptatibus rem voluptatum, facere dolorem
+            reiciendis placeat recusandae, nihil explicabo necessitatibus temporibus et dolor laboriosam. Reiciendis aut expedita illum asperiores totam! Perferendis dignissimos et laboriosam ducimus iure aut saepe ipsum aliquid enim neque,
+            nostrum alias esse harum ad excepturi ex illo sunt fuga. Error, fugiat. Repellendus non officia fugit perferendis corporis ipsa rem ex ea ab sequi dolores eum dolorem sunt quaerat atque molestiae, assumenda excepturi doloremque
+            quae dicta ullam magni quidem dignissimos. Expedita perferendis minima perspiciatis reiciendis maxime. Eaque labore quod fugiat, adipisci iste eius error tempora, modi voluptate natus a praesentium? Voluptas quasi quae, mollitia
+            fugiat tempora excepturi autem natus provident ut, voluptates odit eum unde. Neque laudantium molestiae error sed quae at nam impedit sunt, optio consequuntur illum nesciunt, voluptas rem eum velit ut commodi obcaecati! Magnam,
+            odit quasi. Aperiam voluptas temporibus veniam natus saepe in expedita alias quia ullam dolores. Recusandae animi eligendi repellendus sint at eius, ut quia perspiciatis sed labore necessitatibus, aliquid asperiores excepturi
+            possimus? Impedit deleniti labore fugiat ad explicabo dolorum quia libero, exercitationem, necessitatibus ipsam eum.
+          </p>
+        </div>
+      </div>
+
+      <!-- Daftar Harga -->
+      <div class="row mt-3 d-flex justify-content-center">
+        <div class="col-10">
+          <h3>Daftar Harga</h3>
+          <div class="mt-3">
+            <table class="table">
+              <thead class="table-dark">
+                <tr>
+                  <th class="text-center col-1">No.</th>
+                  <th class="text-center col-3">Warna</th>
+                  <th class="text-center col-8">Harga</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td class="text-center">1.</td>
+                  <td class="text-center">Merah</td>
+                  <td class="text-center">Rp. 450.000.000, -</td>
+                </tr>
+
+                <tr>
+                  <td class="text-center">2.</td>
+                  <td class="text-center">Biru</td>
+                  <td class="text-center">Rp. 430.000.000, -</td>
+                </tr>
+
+                <tr>
+                  <td class="text-center">3.</td>
+                  <td class="text-center">Hiram</td>
+                  <td class="text-center">Rp. 450.000.000, -</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pembelian -->
+      <div class="row mt-3 mb-5 d-flex justify-content-center">
+        <div class="col-10">
+          <h3>Pemesanan</h3>
+          <form action="#">
+            <div class="mb-3">
+              <label for="email" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="email" />
+            </div>
+
+            <div class="mb-3">
+              <label for="name" class="form-label">Nama Lengkap</label>
+              <input type="text" class="form-control" id="name" />
+            </div>
+
+            <div class="mb-3">
+              <select class="form-select" aria-label="Default select example">
+                <option selected>-- Pilih Warna Mobil --</option>
+                <option value="1">Biru</option>
+                <option value="2">Merah</option>
+                <option value="3">Hitam</option>
+              </select>
+            </div>
+
+            <div class="mb-3">
+              <label for="keterangan" class="form-label">Keterangan</label>
+              <textarea class="form-control" id="keterangan" rows="3"></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Pesan</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="mt-5 py-3 bg-default">
+      <div class="row">
+        <div class="col">
+          <h5 class="text-white text-center">Create by @Muhammad Fadil</h5>
+        </div>
+      </div>
+    </footer>
+
+    <script src="../js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
